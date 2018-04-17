@@ -1,0 +1,12 @@
+System Request E-Bus
+
+Project Sponsor       : DISHUB PROVINSI JAWA TIMUR (DAMRI)
+Business Needs        : - Memudahkan Pembayaran
+                        - Meningkatkan kualitas transportasi
+Business Requirement  : - Informasi kedatangan bus di setiap terminal dan halte
+                        - Informasi saldo pada NFC sticker yang dapat dilihat melalui smartphone
+                        - Informasi tarif bus
+Business Value        : - Menjadikan pembayaran lebih efisien terhadap waktu    
+                        - Penumpang dapat mengetahui jadwal bus yang akan datang
+Special Issues        : Sistem akan dibangun berbasis aplikasi Android dan Ios dengan menggunakan bahasa pemrograman Java
+                    		
