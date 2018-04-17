@@ -1,0 +1,9 @@
+Sistem : E-bus 
+Kebutuhan Fungsional :
+1.	Layanan gps untuk mengetahui lokasi bus
+2.	Menampilkan saldo yang dimiliki penumpang bus di smartphone
+3.	sistem bisa memindai stiker berbasis NFC sebagai alat pembayaran
+Kebutuhan Nonfungsional
+1.	keamanan: setiap stiker memiliki ID user sendiri hanya user yang dapat mengetahui history pembayaran
+2.	operasional: stiker menempel pada smartphone
+3.	performance: proses memindai tidak lebih dari 2 detik
