@@ -1,0 +1,59 @@
+                                              SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+
+1.	Pendahuluan
+1.1	Tujuan Penulisan Dokumen 
+Dokumen ini digunakan untuk menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan pada sistem E-Bus.
+Penjabaran spesifikasi ini meliputi deskripsi umum perangkat lunak dan kebutuhan perangkat lunak pada pembangunan sistem E-Bus.
+Dalam pembangunan sistem E-Bus dibutuhkan adanya spesifikasi perangkat lunak khususnya para pengembang dan pembangun perangkat lunak . 
+E-bus merupakan sistem pembayaran bus dengan menggunakan NFC sticker sebagai pemindai untuk alat pembayaran.
+Tujuan pembuatan sistem E-Bus, untuk memudahkan penumpang dalam pembayaran dimana pembayaran menjadi lebih efisien dan meningkatkan kualitas transportasi.
+Sistem E-Bus juga didukung dengan adanya aplikasi berbasis Android dan Ios yang dapat digunakan penumpang untuk mengetahui lokasi bus dengan layanan GPS dan menampilkan saldo yang dimiliki penumpang melalui smartphone. 
+Sistem E-Bus ini masih dikembangkan untuk tarif perjalanan Surabaya-Malang atau sebaliknya
+
+1.2	Lingkup Masalah
+Pembayaran secara tunai dalam bus terkadang kurang efektif dimana penumpang harus menyiapkan ongkos sesuai dengan tarif perjalanan. 
+Terlebih jika pihak bus tidak memiliki kembalian ongkos yang cukup, maka pihak bus akan kesulitan untuk mencari kembalian ongkos.
+Selain itu, tarif perjalanan yang tidak sesuai dengan tarif yang telah ditetapkan sehingga merugikan bagi penumpang. 
+Oleh karena itu, dengan adanya sistem E-Bus ini diharapkan dapat membantu baik penumpang maupun pihak bus dalam melakukan transaksi pembayaran maupun  Dinas Perhubungan Provinsi Jawa Timur untuk memantau aktivitas bus guna menghindari adanya kecurangan yang dilakukan pihak bus. 
+
+1.3	Definisi, Istilah dan Singkatan
+Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
+1)	NFC Sticker merupakan teknologi yang memungkinkan pertukaran data antar gadget dan alat hanya dengan sentuhan jarak dekat, dan hanya membutuhkan waktu kurang dari sepersepuluh detik. 
+Sehingga dengan menggunakan sticker berbasis NFC ini dapat memudahkan penumpang dalam melakukan transaksi pembayaran
+2)	Bus merupakan salah satu transportasi umum untuk membawa penumpang dalam jumlah banyak dalam perjalanan dimana bus merupakan transportasi yang sering digunakan baik dalam jarak dekat maupun jauh.
+3)	Sistem pembayaran berkaitan dengan pemindahan sejumlah nilai uang dari satu pihak ke pihak lain. 
+Media yang digunakan untuk pemindahan nilai uang tersebut sangat beragam, mulai dari penggunaan alat pembayaran yang sederhana sampai pada penggunaan sistem yang kompleks.
+4)	Interface merupakan tampilan antarmuka antara perangkat lunak dan pengguna (user).
+5)	Database merupakan sekumpulan data yang tersusun dengan aturan tertentu yang saling berhubungan untuk memudahkan dalam pengolahan data sehingga diperoleh sebuah informasi.
+6)	DFD merupakan diagram yang menggambarkan aliran data sehingga mudah untuk memahami sistem dan subsistem secara visual sebagai suatu rangkaian aliran data yang saling berkaitan.
+7)	ERD merupakan diagram untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi.
+
+1.4	 Aturan Penomoran
+Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. 
+Untuk daftar penamaan perangkat lunak dijelaskan antara lain :
+Nama-ID		: Kebutuhan Fungsional
+Aturan Penamaan	: SRS-F-OI/OP/OUT-xxx
+Keterangan 		:
+-	SRS merupakan System Requirement Summary
+-	F merupakan Fungsional
+-	OI menunjukkan operasi Input
+-	OP menunjukkan operasi Proses
+-	OUT menunjukkan output
+-	xxx merupakan nomor SRS-Id
+
+Nama-ID		: Kebutuhan Non Fungsional
+Aturan Penamaan	: SRS-NF-IN/PR/OUT-xxx
+Keterangan 		:
+-	SRS merupakan System Requirement Summary
+-	F merupakan Fungsional
+-	OI menunjukkan operasi Input
+-	OP menunjukkan operasi Proses
+-	OUT menunjukkan output
+-	xxx merupakan nomor SRS-Id
+
+Nama-ID		: Bubble
+Aturan Penamaan 	: DFD-X-Y.Z
+Keterangan 		:
+-	DFD adalah Data Flow Diagram
+-	X adalah nomor level diagram
+-	Y.Z adalah nomor pada bubble diagram
