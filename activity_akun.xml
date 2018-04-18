@@ -36,7 +36,7 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:text="FOTO PROFIL"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
@@ -118,15 +118,15 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Saldo"
+                android:text="SALDO"
                 android:textColor="@android:color/white"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/txt_myProfileSaldo"
-                android:text="@string/saldo"
+                android:id="@+id/txt_myProfileBalance"
+                android:text="@string/balance"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:gravity="right"
@@ -142,15 +142,15 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="Pemakaian"
+                android:text="PEMAKAIAN"
                 android:textColor="@android:color/white"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/txt_myProfilePemakaian"
-                android:text="@string/pemakaian"
+                android:id="@+id/txt_myProfileUsage"
+                android:text="@string/usage"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:gravity="right"
@@ -161,4 +161,28 @@
 
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_callCenter"
+        android:text="call center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity=""
+        android:layout_gravity="center"
+        android:paddingHorizontal="20dp"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_changeLanguage"
+        android:text="change language"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity=""
+        android:layout_gravity="center"
+        android:paddingHorizontal="20dp"
+        android:layout_marginHorizontal="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
