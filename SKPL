@@ -57,3 +57,18 @@ Keterangan 		:
 -	DFD adalah Data Flow Diagram
 -	X adalah nomor level diagram
 -	Y.Z adalah nomor pada bubble diagram
+
+BAB 3
+	Deskripsi Kebutuhan
+	3.1 Kebutuhan Antarmuka Eksternal
+	Perangkat Lunak E-Bus membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+	
+	3.1.1 Antarmuka pemakai
+	User interface yang digunakan untuk mengoperasikan Perangkat Lunak E-Bus antara lain :
+	- Tampilan awal aplikasi
+	- Tampilan login 
+	- Tampilan home
+	- Tampilan harga atau tarif
+	- Tampilan history
+	- Tampilan account
+	- Tampilan saran
