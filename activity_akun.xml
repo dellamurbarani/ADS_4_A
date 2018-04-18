@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/holo_blue_dark"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -10,9 +11,9 @@
     <TextView
         android:id="@+id/txt_myProfile"
         android:text="My Profile"
+        android:textColor="@android:color/black"
         android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
         android:textAlignment="center"
         android:padding="10dp"
         android:layout_marginTop="21dp"
@@ -21,7 +22,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
         android:paddingHorizontal="10dp"
         android:paddingBottom="10dp"
         android:layout_marginHorizontal="21dp"
@@ -37,8 +38,8 @@
 
             <TextView
                 android:layout_weight="2"
-                android:text="FOTO PROFIL"
-                android:textColor="@android:color/white"
+                android:text="PROFILE PHOTO"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
@@ -59,17 +60,17 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="NAMA"
-                android:textColor="@android:color/white"
+                android:text="NICKNAME"
+                android:textColor="@android:color/black"
                 android:layout_weight="1"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/txt_myProfileNama"
+                android:id="@+id/txt_myProfileNickName"
+                android:textColor="@android:color/black"
                 android:text="Hanif Aga"
-                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="right"
@@ -84,16 +85,16 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:text="JENIS KELAMIN"
-                android:textColor="@android:color/white"
+                android:text="GENDER"
+                android:textColor="@android:color/black"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/txt_myProfileJenisKelamin"
+                android:id="@+id/txt_myProfileGender"
+                android:textColor="@android:color/black"
                 android:text="Laki-laki"
-                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:layout_weight="1"
                 android:gravity="right"
@@ -104,7 +105,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:background="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
         android:padding="10dp"
         android:layout_marginHorizontal="21dp"
         android:layout_marginTop="21dp"
@@ -119,7 +120,7 @@
 
             <TextView
                 android:text="SALDO"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -127,8 +128,8 @@
             <TextView
                 android:id="@+id/txt_myProfileBalance"
                 android:text="@string/balance"
+                android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"
                 android:gravity="right"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
@@ -136,53 +137,89 @@
         </LinearLayout>
 
         <LinearLayout
-            android:weightSum="2"
-            android:padding="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:weightSum="2">
 
             <TextView
                 android:text="PEMAKAIAN"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
             <TextView
                 android:id="@+id/txt_myProfileUsage"
-                android:text="@string/usage"
-                android:textStyle="bold"
-                android:textColor="@android:color/white"
-                android:gravity="right"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/usage"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
         </LinearLayout>
 
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_callCenter"
-        android:text="call center"
-        android:textColor="@android:color/white"
-        android:background="@android:color/holo_blue_dark"
-        android:gravity=""
-        android:layout_gravity="center"
-        android:paddingHorizontal="20dp"
-        android:layout_marginHorizontal="21dp"
-        android:layout_marginTop="21dp"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/btn_changeLanguage"
-        android:text="change language"
-        android:textColor="@android:color/white"
-        android:background="@android:color/holo_blue_dark"
-        android:gravity=""
-        android:layout_gravity="center"
-        android:paddingHorizontal="20dp"
-        android:layout_marginHorizontal="21dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_callCenter"
+                android:text="call center"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:gravity=""
+                android:layout_gravity="center"
+                android:paddingHorizontal="20dp"
+                android:layout_marginHorizontal="21dp"
+                android:layout_marginTop="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_changeLanguage"
+                android:text="change language"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:gravity=""
+                android:layout_gravity="center"
+                android:paddingHorizontal="20dp"
+                android:layout_marginHorizontal="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_privacyPolicy"
+                android:text="privacy policy"
+                android:textColor="@android:color/black"
+                android:background="@android:color/white"
+                android:gravity=""
+                android:layout_gravity="center"
+                android:paddingHorizontal="20dp"
+                android:layout_marginHorizontal="21dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_logOut"
+            android:text="log out"
+            android:textColor="@android:color/holo_red_dark"
+            android:background="@android:color/white"
+            android:paddingHorizontal="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="21dp"
+            android:layout_marginBottom="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
 </LinearLayout>
