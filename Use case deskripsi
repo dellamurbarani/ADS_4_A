@@ -1,0 +1,20 @@
+Use Case Deskripsi
+Use case name : Order
+Actor : User
+Description : Sistem akan menyimpan data setelah user melakukan pemindaian smartcard
+Trigger : Simple-order dengan smartcard
+Pre-conditions : 
+1.	User dapat memeriksa lokasi bus yang akan datang
+2.	User dapat memastikan saldo mencukupi melalui smartphone
+Normal course :
+1.	User menginputkan data melalui pemindaian smartcard
+2.	Sistem memperoleh informasi user berupa :
+•	ID user
+•	Tempat keberangkatan
+•	Jumlah penumpang
+3.	Sistem akan memeriksa saldo user
+Post-conditions :
+1.	Sistem akan menyimpan informasi user untuk keperluan pembayaran
+Exception :
+1.	Jika saldo sudah mencapai batas minimal, maka sistem akan memberikan peringatan
+
