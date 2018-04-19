@@ -20,13 +20,14 @@ Oleh karena itu, dengan adanya sistem E-Bus ini diharapkan dapat membantu baik p
 Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 1)	NFC Sticker merupakan teknologi yang memungkinkan pertukaran data antar gadget dan alat hanya dengan sentuhan jarak dekat, dan hanya membutuhkan waktu kurang dari sepersepuluh detik. 
 Sehingga dengan menggunakan sticker berbasis NFC ini dapat memudahkan penumpang dalam melakukan transaksi pembayaran
-2)	Bus merupakan salah satu transportasi umum untuk membawa penumpang dalam jumlah banyak dalam perjalanan dimana bus merupakan transportasi yang sering digunakan baik dalam jarak dekat maupun jauh.
-3)	Sistem pembayaran berkaitan dengan pemindahan sejumlah nilai uang dari satu pihak ke pihak lain. 
+2) 	NFC Reader merupakan alat yang digunakan untuk membaca NFC sticker 
+3)	Bus merupakan salah satu transportasi umum untuk membawa penumpang dalam jumlah banyak dalam perjalanan dimana bus merupakan transportasi yang sering digunakan baik dalam jarak dekat maupun jauh.
+4)	Sistem pembayaran berkaitan dengan pemindahan sejumlah nilai uang dari satu pihak ke pihak lain. 
 Media yang digunakan untuk pemindahan nilai uang tersebut sangat beragam, mulai dari penggunaan alat pembayaran yang sederhana sampai pada penggunaan sistem yang kompleks.
-4)	Interface merupakan tampilan antarmuka antara perangkat lunak dan pengguna (user).
-5)	Database merupakan sekumpulan data yang tersusun dengan aturan tertentu yang saling berhubungan untuk memudahkan dalam pengolahan data sehingga diperoleh sebuah informasi.
-6)	DFD merupakan diagram yang menggambarkan aliran data sehingga mudah untuk memahami sistem dan subsistem secara visual sebagai suatu rangkaian aliran data yang saling berkaitan.
-7)	ERD merupakan diagram untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi.
+5)	Interface merupakan tampilan antarmuka antara perangkat lunak dan pengguna (user).
+6)	Database merupakan sekumpulan data yang tersusun dengan aturan tertentu yang saling berhubungan untuk memudahkan dalam pengolahan data sehingga diperoleh sebuah informasi.
+7)	DFD merupakan diagram yang menggambarkan aliran data sehingga mudah untuk memahami sistem dan subsistem secara visual sebagai suatu rangkaian aliran data yang saling berkaitan.
+8)	ERD merupakan diagram untuk menjelaskan hubungan antar data dalam basis data berdasarkan objek-objek dasar data yang mempunyai hubungan antar relasi.
 
 1.4	 Aturan Penomoran
 Dalam dokumen ini, terdapat beberapa aturan penomoran yang dipakai. 
@@ -57,6 +58,28 @@ Keterangan 		:
 -	DFD adalah Data Flow Diagram
 -	X adalah nomor level diagram
 -	Y.Z adalah nomor pada bubble diagram
+
+1.5 Referensi
+
+[1]	T. Ihsan and R. E. Putri, “Sistem Pembayaran Tiket Bus Rapid Transit ( Brt ) Menggunakan Near Field Communication ( Nfc ),” Semin. Nas. Sains dan Teknol. 2016, no. November, pp. 1–8, 2016.
+[2]	H. Ubaya, “Design of Prototype Payment Application System With Near Field Communication ( NFC ) Technology based on Android,” Comput. Eng. Appl., vol. 1, no. 1, pp. 1–12, 2012.
+
+
+1.6 Deskripsi Umum Dokumen (Ihtisar)
+		Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+	Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi masalah yang ada lalu diberikan solusi dengan sistem yang akan dibangun,
+	definisi, istilah dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam dokumen ini, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
+		Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, 
+	karakteristik pengguna sistem, batasan yang dipakar dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukkan bagi perangkat lunak yang dibuat.
+		Bagian deskripsi kebutuhan dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data,
+	batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional.
+	Kebutuhan fungsional dan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD),
+	dimana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2.
+	Data store dari DFD yang dibuat pun dijelaskan di dalam dokumen ini. Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses.
+	Kebutuhan data dari perangkat lunak digambarkan dalam Entity Relationship Diagram (E-R Diagram).
+	Batasan perancangan dari perangkat lunak yang akan dibuat lebih mudah dalam melakukan pekerjaannya. 
+	Keruntunan dari perangkat lunak yang akan dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.
+
 
 BAB 3
 	Deskripsi Kebutuhan
