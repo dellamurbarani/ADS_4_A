@@ -2,28 +2,28 @@
 
 1.	Pendahuluan
 1.1	Tujuan Penulisan Dokumen 
-Dokumen ini digunakan untuk menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan pada sistem E-Bus.
-Penjabaran spesifikasi ini meliputi deskripsi umum perangkat lunak dan kebutuhan perangkat lunak pada pembangunan sistem E-Bus.
-Dalam pembangunan sistem E-Bus dibutuhkan adanya spesifikasi perangkat lunak khususnya para pengembang dan pembangun perangkat lunak . 
-E-bus merupakan sistem pembayaran bus dengan menggunakan NFC sticker sebagai pemindai untuk alat pembayaran.
-Tujuan pembuatan sistem E-Bus, untuk memudahkan penumpang dalam pembayaran dimana pembayaran menjadi lebih efisien dan meningkatkan kualitas transportasi.
-Sistem E-Bus juga didukung dengan adanya aplikasi berbasis Android dan Ios yang dapat digunakan penumpang untuk mengetahui lokasi bus dengan layanan GPS dan menampilkan saldo yang dimiliki penumpang melalui smartphone. 
-Sistem E-Bus ini masih dikembangkan untuk tarif perjalanan Surabaya-Malang atau sebaliknya
+	Dokumen ini digunakan untuk menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan pada sistem E-Bus.
+	Penjabaran spesifikasi ini meliputi deskripsi umum perangkat lunak dan kebutuhan perangkat lunak pada pembangunan sistem E-Bus.
+	Dalam pembangunan sistem E-Bus dibutuhkan adanya spesifikasi perangkat lunak khususnya para pengembang dan pembangun perangkat lunak . 
+	E-bus merupakan sistem pembayaran bus dengan menggunakan NFC sticker sebagai pemindai untuk alat pembayaran.
+	Tujuan pembuatan sistem E-Bus, untuk memudahkan penumpang dalam pembayaran dimana pembayaran menjadi lebih efisien dan meningkatkan kualitas transportasi.
+	Sistem E-Bus juga didukung dengan adanya aplikasi berbasis Android dan Ios yang dapat digunakan penumpang untuk mengetahui lokasi bus dengan layanan GPS dan menampilkan saldo yang dimiliki penumpang melalui smartphone. 
+	Sistem E-Bus ini masih dikembangkan untuk tarif perjalanan Surabaya-Malang atau sebaliknya
 
 1.2	Lingkup Masalah
-Pembayaran secara tunai dalam bus terkadang kurang efektif dimana penumpang harus menyiapkan ongkos sesuai dengan tarif perjalanan. 
-Terlebih jika pihak bus tidak memiliki kembalian ongkos yang cukup, maka pihak bus akan kesulitan untuk mencari kembalian ongkos.
-Selain itu, tarif perjalanan yang tidak sesuai dengan tarif yang telah ditetapkan sehingga merugikan bagi penumpang. 
-Oleh karena itu, dengan adanya sistem E-Bus ini diharapkan dapat membantu baik penumpang maupun pihak bus dalam melakukan transaksi pembayaran maupun  Dinas Perhubungan Provinsi Jawa Timur untuk memantau aktivitas bus guna menghindari adanya kecurangan yang dilakukan pihak bus. 
+	Pembayaran secara tunai dalam bus terkadang kurang efektif dimana penumpang harus menyiapkan ongkos sesuai dengan tarif perjalanan. 
+	Terlebih jika pihak bus tidak memiliki kembalian ongkos yang cukup, maka pihak bus akan kesulitan untuk mencari kembalian ongkos.
+	Selain itu, tarif perjalanan yang tidak sesuai dengan tarif yang telah ditetapkan sehingga merugikan bagi penumpang. 
+	Oleh karena itu, dengan adanya sistem E-Bus ini diharapkan dapat membantu baik penumpang maupun pihak bus dalam melakukan transaksi pembayaran maupun  Dinas Perhubungan Provinsi Jawa Timur untuk memantau aktivitas bus guna menghindari adanya kecurangan yang dilakukan pihak bus. 
 
 1.3	Definisi, Istilah dan Singkatan
 Berikut definisi, istilah serta singkatan yang digunakan dalam dokumen ini :
 1)	NFC Sticker merupakan teknologi yang memungkinkan pertukaran data antar gadget dan alat hanya dengan sentuhan jarak dekat, dan hanya membutuhkan waktu kurang dari sepersepuluh detik. 
-Sehingga dengan menggunakan sticker berbasis NFC ini dapat memudahkan penumpang dalam melakukan transaksi pembayaran
+	Sehingga dengan menggunakan sticker berbasis NFC ini dapat memudahkan penumpang dalam melakukan transaksi pembayaran
 2) 	NFC Reader merupakan alat yang digunakan untuk membaca NFC sticker 
 3)	Bus merupakan salah satu transportasi umum untuk membawa penumpang dalam jumlah banyak dalam perjalanan dimana bus merupakan transportasi yang sering digunakan baik dalam jarak dekat maupun jauh.
 4)	Sistem pembayaran berkaitan dengan pemindahan sejumlah nilai uang dari satu pihak ke pihak lain. 
-Media yang digunakan untuk pemindahan nilai uang tersebut sangat beragam, mulai dari penggunaan alat pembayaran yang sederhana sampai pada penggunaan sistem yang kompleks.
+	Media yang digunakan untuk pemindahan nilai uang tersebut sangat beragam, mulai dari penggunaan alat pembayaran yang sederhana sampai pada penggunaan sistem yang kompleks.
 5)	Interface merupakan tampilan antarmuka antara perangkat lunak dan pengguna (user).
 6)	Database merupakan sekumpulan data yang tersusun dengan aturan tertentu yang saling berhubungan untuk memudahkan dalam pengolahan data sehingga diperoleh sebuah informasi.
 7)	DFD merupakan diagram yang menggambarkan aliran data sehingga mudah untuk memahami sistem dan subsistem secara visual sebagai suatu rangkaian aliran data yang saling berkaitan.
@@ -66,12 +66,12 @@ Keterangan 		:
 
 
 1.6 Deskripsi Umum Dokumen (Ihtisar)
-		Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+	Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
 	Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi masalah yang ada lalu diberikan solusi dengan sistem yang akan dibangun,
 	definisi, istilah dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam dokumen ini, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
-		Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, 
+	Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, 
 	karakteristik pengguna sistem, batasan yang dipakar dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukkan bagi perangkat lunak yang dibuat.
-		Bagian deskripsi kebutuhan dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data,
+	Bagian deskripsi kebutuhan dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data,
 	batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional.
 	Kebutuhan fungsional dan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD),
 	dimana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2.
@@ -80,13 +80,59 @@ Keterangan 		:
 	Batasan perancangan dari perangkat lunak yang akan dibuat lebih mudah dalam melakukan pekerjaannya. 
 	Keruntunan dari perangkat lunak yang akan dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.
 
+BAB 2
+Deskripsi Umum Perangkat Lunak
+	
+2.1 Deskripsi Umum Sistem
+	E-Bus merupakan sistem pembayaran bus dengan menggunakan sticker berbasis NFC untuk memudahkan transaksi pembayaran transportasi bus.
+	Sistem ini menggunakan alat pemindai atau NFC Reader untuk membaca sticker.
+	Selain itu sistem E-Bus ini juga dilengkapi dengan aplikasi berbasis Android dan Ios untuk mendukung sistem. 
+	Dimana dengan adanya aplikasi tersebut dapat membantu pengguna untuk mengetahui lokasi bus, tarif harga, saldo dan fitur saran.
+	Pengguna yang telah melakukan log in dapat menginputkan lokasi dan tujuan pengguna, 
+	maka perangkat lunak akan menampilkan maps berupa jalur perjalanan serta jarak,harga dan waktu tempuh.
+	Pada aplikasi tersedia list dari tarif harga dari setiap lokasi sehingga pengguna dapat mengetahui tarif harga.
+	Selain itu , aplikasi ini juga menyediakan fitur linimasa atau history berupa informasi tanggal dan harga penggunaan sistem E-Bus.
+	Pengguna juga dapat update nama, memeriksa saldo, biaya pengeluaran pada menu account. 
+	Dan pengguna juga dapat memberikan saran terhadap kinerja, fasilitas baik pada sistem maupun armada bus. Sistem ini dikelola oleh seorang admin yang bertugas untuk memperbaharui tarif harga, saldo, data pengguna, dan data biaya pengeluaran.
+	Sistem ini juga dipantau oleh Dinas Perhubungan Provinsi Jawa Timur untuk mengetahui perkembangan dan sebagai evaluasi untuk meminimalisir adanya kecurangan.
+			
+2.2 Karakteristik Pengguna
+	Kategori 				: Guest
+	Tugas					: Mengetahui sistem dan membeli kebutuhan penggunaan sistem (sticker)
+	Hak Akses ke Aplikasi			: Tidak ada
+		
+	Kategori				: Pengguna
+	Tugas					: Menggunakan sistem dan aplikasi 
+	Hak akses ke Aplikasi			: Melakukan log in aplikasi 
+
+	Kategori				: Admin
+	Tugas					: Memperbaharui tarif, data pengguna, saldo, dan biaya pengeluaran
+	Hak Akses ke Aplikasi			: Log in sebagai admin
+		
+	Kategori				: Dinas Perhubungan Provinsi Jawa Timur
+	Tugas					: Memantau dan mengevaluasi kinerja sistem 
+	Hak Akses ke Aplikasi			: Tidak Ada
+		
+2.3 Batasan
+	Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan. 
+	Batasan-batasan tersebut antara lain :
+	- Penggunaan aplikasi hanya dapat dilakukan oleh pengguna yang telah membeli sticker di minimarket terdekat
+	- Aplikasi hanya sebagai informasi terhadap aktivitas penggunaan sistem seperti informasi lokasi bus, jalur perjalanan, tarif harga, saldo, biaya pengeluaran dan saran.
+	- Aplikasi berjalan pada smartphone berbasis Android dan Ios
+		
+2.4 Lingkungan Operasi
+	Aplikasi Client Server ini akan berfungsi dengan spesifikasi :
+	Server :
+	
+	Client :
 
 BAB 3
-	Deskripsi Kebutuhan
-	3.1 Kebutuhan Antarmuka Eksternal
+Deskripsi Kebutuhan
+
+3.1 Kebutuhan Antarmuka Eksternal
 	Perangkat Lunak E-Bus membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
 	
-	3.1.1 Antarmuka pemakai
+3.1.1 Antarmuka pemakai
 	User interface yang digunakan untuk mengoperasikan Perangkat Lunak E-Bus antara lain :
 	- Tampilan awal aplikasi
 	- Tampilan login 
@@ -95,3 +141,20 @@ BAB 3
 	- Tampilan history
 	- Tampilan account
 	- Tampilan saran
+
+	Alat-alat yang mendukung antarmuka pemakai sebagai berikut :
+	- Smartphone
+	- NFC Reader
+	
+3.1.2 Antarmuka Perangkat Keras
+	Antarmuka perangkat keras yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- Smartphone
+	- NFC Reader
+	
+3.1.3 Antarmuka Perangkat Lunak
+	Antarmuka perangkat lunak yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- Android versi 4.0-4.02 Ice Cream Sandwich (API level 4)
+	
+3.1.4 Antarmuka Komunikasi
+	Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
+	- Kuota internet
