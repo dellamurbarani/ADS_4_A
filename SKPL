@@ -122,9 +122,37 @@ Deskripsi Umum Perangkat Lunak
 		
 2.4 Lingkungan Operasi
 	Aplikasi Client Server ini akan berfungsi dengan spesifikasi :
-	Server :
-	
-	Client :
+	Server ( Komputer dengan spesifikasi hardware minimal )
+		- Processor Intel Pentium 4 3 Ghz 
+		- Motherboard support internet connection 
+		- 2 GB RAM 
+		- 500 GB Hard Disk Drive utama 
+		- 500 GB Hard Disk Drive backup 
+		- VGA Card 256 MB 
+		- NIC FastEthernet atau Gigabit Ethernet 
+		- Mouse 
+		- Keyboard 
+		- Monitor 
+		- Power Supply 
+	Komputer minimal telah terinstal software sebagai berikut : 
+		- Browser Google Chrome/Mozilla Firefox 
+		- Word Processor 
+		- Apache HTTP Server 
+		- Mail Server 
+	DBMS (Database Management System) minimal MySQL 5.0.20 ke atas 
+	Koneksi internet dengan bandwidth minimal 1 Mbps 
+	OS minimal Windows 2003 Server  atau Ubuntu Server 
+
+	Client ( smartphone dengan spesifikasi hardware minimal )
+		- Storage 4 GB
+		- Kecepatan processor 1 GHz
+		- Kecepatan CPU 1.00
+		- 1 GB RAM
+	Smartphone minimal telah terinstal software sebagai berikut : 
+		- Browser Google Chrome/Mozilla Firefox 
+		- Google Maps
+	Koneksi internet dengan bandwidth minimal 500 Kbps 
+	OS minimal Android versi 4.0-4.02 Ice Cream Sandwich
 
 BAB 3
 Deskripsi Kebutuhan
