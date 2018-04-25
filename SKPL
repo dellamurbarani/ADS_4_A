@@ -227,3 +227,8 @@ Deskripsi Kebutuhan
 	ID 			: SRS-F-OUT-010
 	Kebutuhan	: Perangkat lunak menampilkan menu untuk pemberian saran pengguna
 	Penjelasan	: Setelah pengguna menginputkan saran maka perangkat lunak akan menampilkan saran-saran yang diberikan oleh pengguna
+
+3.5 Batasan Perancangan
+	E-Bus memiliki batasan perancangan dalam pengembangannya, antara lain.
+	- Text editor yang digunakan adalah Android Studio
+	- Bahasa pemrograman yang dipakai adalah XML dan Java
