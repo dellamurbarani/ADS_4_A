@@ -186,3 +186,44 @@ Deskripsi Kebutuhan
 3.1.4 Antarmuka Komunikasi
 	Antarmuka komunikasi yang digunakan untuk mengoperasikan perangkat lunak antara lain :
 	- Kuota internet
+	
+3.2 Kebutuhan Fungsional
+	ID			: SRS-F-OUT-001
+	Kebutuhan	: perangkat lunak dapat menampilkan form log in
+	Penjelasan	: Pengguna dapat melakukan log in dan perangkat lunak perlu menampilkan form log in.
+		
+	ID 			: SRS-F-PR-002
+	Kebutuhan	: perangkat lunak menyimpan data pengguna
+	Penjelasan	: Setelah pengguna log in maka perangkat lunak akan menyimpan data pengguna
+
+	ID			: SRS-F-IN-003
+	Kebutuhan	: perangkat lunak dapat menerima inputan pengguna berupa lokasi dan tujuan
+	Penjelasan	: pengguna dapat melakukan inputan lokasi dan tujuan dan perangkat lunak akan menampilkan form lokasi dan tujuan
+
+	ID 			: SRS-F-PR-004
+	Kebutuhan	: perangkat lunak menyimpan nama lokasi dan tujuan pengguna
+	Penjelasan	: Setelah pengguna menginputkan nama lokasi dan tujuan maka perangkat lunak akan menyimpan data pengguna
+				
+	ID			: SRS-F-OUT-005
+	Kebutuhan	: perangkat lunak menampilkan maps dan jalur perjalanan pengguna
+	Penjelasan	: setelah pengguna menginput data berupa nama lokasi dan tujuan, maka perangkat akan menampilkan maps lokasi bus dan jalur perjalanan yang akan ditempuh serta jarak, biaya dan waktu perjalanan
+						
+	ID 			: SRS-F-PR-006
+	Kebutuhan	: perangkat lunak dapat menghitung tarif perjalanan dan memotong saldo pengguna
+	Penjelasan	: setelah pengguna melakukan pemindaian sticker pada alat pemindaian maka perangkat lunak akan melakukan pemotongan saldo sesuai dengan tarif perjalanan
+		
+	ID			: SRS-F-OUT-007
+	Kebutuhan	: perangkat lunak menampilkan saldo pengguna
+	Penjelasan	: setelah dilakukan pemindaian sticker maka perangkat lunak akan menampilkan saldo terakhir pengguna
+		
+	ID 			: SRS-F-IN-008
+	Kebutuhan	: Alat pemindaian (NFC Reader) dapat memindai sticker pengguna
+	Penjelasan	: sticker akan ditempelkan pada NFC Reader untuk dilakukan pemindaian sebagai alat pembayaran
+		
+	ID 			: SRS-F-IN-009
+	Kebutuhan	: Perangkat lunak menerima inputan berupa saran dari pengguna
+	Penjelasan	: Pengguna dapat memberikan saran demi kemajuan sistem
+	
+	ID 			: SRS-F-OUT-010
+	Kebutuhan	: Perangkat lunak menampilkan menu untuk pemberian saran pengguna
+	Penjelasan	: Setelah pengguna menginputkan saran maka perangkat lunak akan menampilkan saran-saran yang diberikan oleh pengguna
