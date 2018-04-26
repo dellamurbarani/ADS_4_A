@@ -228,6 +228,37 @@ Deskripsi Kebutuhan
 	Kebutuhan	: Perangkat lunak menampilkan menu untuk pemberian saran pengguna
 	Penjelasan	: Setelah pengguna menginputkan saran maka perangkat lunak akan menampilkan saran-saran yang diberikan oleh pengguna
 
+3.4 Kebutuhan Non Fungsional
+	Kebutuhan non fungsional yang terdapat pada perangkat lunak E-Bus antara lain :
+	
+	ID 			: SRS-F-OUT-011
+	Parameter	: Portability
+	Kebutuhan	: Sticker menempel pada smartphone pengguna
+
+	ID 			: SRS-F-PR-012
+	Parameter	: Portability
+	Kebutuhan	: Aplikasi dapat dipakai di smartphone berbasis Android dan Ios
+				
+	ID 			: SRS-F-PR-013
+	Parameter	: Response Time
+	Kebutuhan	: NFC Reader dapat membaca sticker ketika dilakukan pemindaian dengan waktu tidak lebih dari 2 detik
+	
+	ID 			: SRS-F-PR-014
+	Parameter	: Response Time
+	Kebutuhan	: Perangkat lunak mampu melakukan update saldo dan biaya pengeluaran setelah penggunaan sistem
+		
+	ID 			: SRS-F-PR-015
+	Parameter	: Response Time
+	Kebutuhan	: Perangkat lunak dapat memperbaharui tarif harga
+	
+	ID 			: SRS-F-PR-016
+	Parameter	: Security
+	Kebutuhan	: Sticker berbasis NFC dengan ID user yang berbeda-beda sehingga keamanan identitas pengguna akan terjamin 
+	
+	ID 			: SRS-F-OUR-017
+	Parameter	: Others(Tampilan history) 
+	Kebutuhan	: Perangkat lunak menampilkan history setelah pengguna melakukan aktivitas penggunaan sistem
+
 3.5 Batasan Perancangan
 	E-Bus memiliki batasan perancangan dalam pengembangannya, antara lain.
 	- Text editor yang digunakan adalah Android Studio
