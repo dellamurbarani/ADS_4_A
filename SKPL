@@ -188,74 +188,105 @@ Deskripsi Kebutuhan
 	- Kuota internet
 	
 3.2 Kebutuhan Fungsional
-	ID			: SRS-F-OUT-001
+	ID		: SRS-F-OUT-001
 	Kebutuhan	: perangkat lunak dapat menampilkan form log in
 	Penjelasan	: Pengguna dapat melakukan log in dan perangkat lunak perlu menampilkan form log in.
 		
-	ID 			: SRS-F-PR-002
+	ID 		: SRS-F-PR-002
 	Kebutuhan	: perangkat lunak menyimpan data pengguna
 	Penjelasan	: Setelah pengguna log in maka perangkat lunak akan menyimpan data pengguna
 
-	ID			: SRS-F-IN-003
+	ID		: SRS-F-IN-003
 	Kebutuhan	: perangkat lunak dapat menerima inputan pengguna berupa lokasi dan tujuan
 	Penjelasan	: pengguna dapat melakukan inputan lokasi dan tujuan dan perangkat lunak akan menampilkan form lokasi dan tujuan
 
-	ID 			: SRS-F-PR-004
+	ID 		: SRS-F-PR-004
 	Kebutuhan	: perangkat lunak menyimpan nama lokasi dan tujuan pengguna
 	Penjelasan	: Setelah pengguna menginputkan nama lokasi dan tujuan maka perangkat lunak akan menyimpan data pengguna
 				
-	ID			: SRS-F-OUT-005
+	ID		: SRS-F-OUT-005
 	Kebutuhan	: perangkat lunak menampilkan maps dan jalur perjalanan pengguna
 	Penjelasan	: setelah pengguna menginput data berupa nama lokasi dan tujuan, maka perangkat akan menampilkan maps lokasi bus dan jalur perjalanan yang akan ditempuh serta jarak, biaya dan waktu perjalanan
 						
-	ID 			: SRS-F-PR-006
+	ID 		: SRS-F-PR-006
 	Kebutuhan	: perangkat lunak dapat menghitung tarif perjalanan dan memotong saldo pengguna
 	Penjelasan	: setelah pengguna melakukan pemindaian sticker pada alat pemindaian maka perangkat lunak akan melakukan pemotongan saldo sesuai dengan tarif perjalanan
 		
-	ID			: SRS-F-OUT-007
+	ID		: SRS-F-OUT-007
 	Kebutuhan	: perangkat lunak menampilkan saldo pengguna
 	Penjelasan	: setelah dilakukan pemindaian sticker maka perangkat lunak akan menampilkan saldo terakhir pengguna
 		
-	ID 			: SRS-F-IN-008
+	ID 		: SRS-F-IN-008
 	Kebutuhan	: Alat pemindaian (NFC Reader) dapat memindai sticker pengguna
 	Penjelasan	: sticker akan ditempelkan pada NFC Reader untuk dilakukan pemindaian sebagai alat pembayaran
 		
-	ID 			: SRS-F-IN-009
+	ID 		: SRS-F-IN-009
 	Kebutuhan	: Perangkat lunak menerima inputan berupa saran dari pengguna
 	Penjelasan	: Pengguna dapat memberikan saran demi kemajuan sistem
 	
-	ID 			: SRS-F-OUT-010
+	ID 		: SRS-F-OUT-010
 	Kebutuhan	: Perangkat lunak menampilkan menu untuk pemberian saran pengguna
 	Penjelasan	: Setelah pengguna menginputkan saran maka perangkat lunak akan menampilkan saran-saran yang diberikan oleh pengguna
+
+3.2.1 	Diagram Konteks
+		
+3.2.2 	DFD Level 1
+		
+		3.2.2.1 DFD Level 2 <Update informasi>
+
+3.2.3 Spesifikasi Proses (P-SPEC)
+	Tabel 5 Spesifikasi Proses
+	Kode buble	Deskripsi
+	DFD-0-1 	Proses ini merupakan gambaran sistem secara keseluruhan. Melibatkan terminator serta data flow yang keluar-masuk kedalam sistem. Buble 0 akan dideskripsikan pada DFD level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik. 
+	DFD-1-1 	Terminator yang dapat melakukan pilihan input adalah admin dan user. Proses mengeluarkan output sesuai dengan pilihan, yang akan meneruskan data flow pada proses
+	DFD-1-2		Proses ini akan terjadi ketika login sebagai user dan memilih menu lokasi untuk mengetahui lokasi dan tujuan user
+	DFD-1-3 	Proses ini akan terjadi ketika login sebagai user dan memilih menu pilihan saldo. User dapat memeriksa saldo yang tersedia
+	DFD-1-4		Proses ini ketika user melakukan pembayaran pada sistem dengan menggunakan NFC stiker 
+	DFD-1-5 	Proses ini ketika pembayaran telah dilakukan maka akan terdapat laporan transaksi
+	DFD-1-6		Proses ini akan terjadi ketika login sebagai admin. Admin dapat melakukan update saldo, informasi tarif harga, laporan transaksi
+	DFD-2-6.1	Pengguna dapat melihat saldo, informasi tarif harga, laporan transaksi
+	DFD-2-6.2	Admin dapat melakukan update saldo, tarif harga, laporan transaksi
+
+3.2.4 Data Store
+
+	Data Store		Deskripsi
+	Data_pengguna	berisi deskripsi pengguna seperti nama, email
+	Data_transaksi	berisi laporan transaksi pembayaran
+	Data_tarifharga	berisi data mengenai tarif harga bus
+	Data saldo		berisi saldo pengguna
+		
+3.3 Kebutuhan Data
+
+3.3.1 E-R Diagram
 
 3.4 Kebutuhan Non Fungsional
 	Kebutuhan non fungsional yang terdapat pada perangkat lunak E-Bus antara lain :
 	
-	ID 			: SRS-F-OUT-011
+	ID 		: SRS-F-OUT-011
 	Parameter	: Portability
 	Kebutuhan	: Sticker menempel pada smartphone pengguna
 
-	ID 			: SRS-F-PR-012
+	ID 		: SRS-F-PR-012
 	Parameter	: Portability
 	Kebutuhan	: Aplikasi dapat dipakai di smartphone berbasis Android dan Ios
 				
-	ID 			: SRS-F-PR-013
+	ID 		: SRS-F-PR-013
 	Parameter	: Response Time
 	Kebutuhan	: NFC Reader dapat membaca sticker ketika dilakukan pemindaian dengan waktu tidak lebih dari 2 detik
 	
-	ID 			: SRS-F-PR-014
+	ID 		: SRS-F-PR-014
 	Parameter	: Response Time
 	Kebutuhan	: Perangkat lunak mampu melakukan update saldo dan biaya pengeluaran setelah penggunaan sistem
 		
-	ID 			: SRS-F-PR-015
+	ID 		: SRS-F-PR-015
 	Parameter	: Response Time
 	Kebutuhan	: Perangkat lunak dapat memperbaharui tarif harga
 	
-	ID 			: SRS-F-PR-016
+	ID 		: SRS-F-PR-016
 	Parameter	: Security
 	Kebutuhan	: Sticker berbasis NFC dengan ID user yang berbeda-beda sehingga keamanan identitas pengguna akan terjamin 
 	
-	ID 			: SRS-F-OUR-017
+	ID 		: SRS-F-OUR-017
 	Parameter	: Others(Tampilan history) 
 	Kebutuhan	: Perangkat lunak menampilkan history setelah pengguna melakukan aktivitas penggunaan sistem
 
@@ -263,3 +294,62 @@ Deskripsi Kebutuhan
 	E-Bus memiliki batasan perancangan dalam pengembangannya, antara lain.
 	- Text editor yang digunakan adalah Android Studio
 	- Bahasa pemrograman yang dipakai adalah XML dan Java
+	
+3.6 Kerunutan (traceability)
+	Suatu perangkat lunak yang baik memiliki kebutuhan kebutuhan fungsional yang dapat dirunut model analisisnya.
+	Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun .
+
+3.6.1 Kebutuhan Fungsional vs Proses
+	Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak E-bus adalah sebagai berikut
+		
+	SRS-F-OUT-001 		: DFD-1-1
+	SRS-F-PR-002		: DFD-1-1
+	SRS-F-IN-003		: DFD-1-2
+	SRS-F-PR-004		: DFD 1-2
+	SRS-F-OUT-005		: DFD 2-6.1
+	SRS-F-PR-006		: DFD 1-3
+	SRS-F-OUT-007		: DFD 2.6.1
+	SRS-F-IN-009		: DFD 2.6.1
+	SRS-F-OUT-010		: DFD 2.6.2
+	
+3.6.2 Data Store vs E-R
+	Mapping data store pada DFD dengan Entity-Relasi untuk perangkat lunak E-Bus adalah sebagai berikut :
+	Data store			Entity				Relasi
+	Data_pengguna		pengguna					-
+	Data_transaksi		pengguna, lokasi			penggunaannya,terdiri_dari
+	Data_tarifharga		lokasi					penggunaannya
+	Data_saldo		transaksi, lokasi			terdiri_dari
+3.7 Ringkasan Kebutuhan
+	Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional.
+	Kebutuhan ini menggambarkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahahan dalam tahapan testing,
+	karena pada dasarnya semua kebutuhan dapat di test. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Bus.
+	
+3.7.1 Kebutuhan Fungsional
+	SRS-F-OUT-001			: Perangkat lunak dapat menampilkan form log in
+	SRS-F-PR-002			: Perangkat lunak menyimpan data pegguna
+	SRS-F-IN-003			: Perangkat lunak dapat menerima inputan pengguna berupa lokasi dan tujuan pengguna
+	SRS-F-PR-004			: Perangkat lunak menyimpan nama lokasi dan tujuan pengguna
+	SRS-F-OUT-005			: Perangkat lunak menampilkan maps dan jalur perjalanan pengguna
+	SRS-F-PR-006			: Perangkat lunak dapat menghitung tarif perjalanan dan memotong saldo pengguna
+	SRS-F-OUT-007			: Perangkat lunak menampilkan saldo pengguna
+	SRS-F-IN-009			: Perangkat lunak menerima inputan berupa saran dari pengguna
+	SRS-F-OUT-010			: Perangkat lunak menampilkan menu untuk pemberian saran pengguna
+	
+3.7.2. Kebutuhan Non Fungsional
+	SRS-F-OUT-011			: Sticker menempel pada smartphone pengguna
+	SRS-F-PR-012			: Aplikasi dapat dipakai di smartphone berbasis Android dan Ios
+	SRS-F-PR-013			: NFC Reader dapat membaca sticker ketika dilakukan pemindaian dengan waktu tidak lebih dari 2 detik
+	SRS-F-PR-014			: Perangkat lunak mampu melakukan update saldo dan biata pengeluaran setelah penggunaan sistem
+	SRS-F-PR-015			: Perangkat lunak dapat memperbaharui tarif harga
+	SRS-F-PR-016			: Sticker berbasis NFC dengan ID user yang berbeda-beda sehingga keamana identitas pengguna akan terjamin
+	SRS-F-OUR-017			: Perangkat lunak menampilkan history setelah pengguna melakukan aktivitas penggunaan sistem
+	
+		
+	
+
+	
+
+
+
+
+	
