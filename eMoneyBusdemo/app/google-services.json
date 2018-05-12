@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "387867865935",
+    "firebase_url": "https://e-money-bus-demo.firebaseio.com",
+    "project_id": "e-money-bus-demo",
+    "storage_bucket": "e-money-bus-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387867865935:android:5f22abacb4dbae75",
+        "android_client_info": {
+          "package_name": "com.example.ahmadnprimordi.e_moneybusdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387867865935-fplvj79b1ns4c7pk89tl95ngnul87j8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahmadnprimordi.e_moneybusdemo",
+            "certificate_hash": "2667bd922fe7e3661e0db8d0913987f696a4caae"
+          }
+        },
+        {
+          "client_id": "387867865935-ch9us5lnki64u19n8ranpph6837gd70n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvfn1hnGekZD7g33TXlVQpOqBmU3Cyje4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387867865935-ch9us5lnki64u19n8ranpph6837gd70n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
